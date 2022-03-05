@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.ts",
-    "role:seeder": "ts-node src/seeder/role.seeder.ts"
+    "role:seeder": "ts-node src/seeder/role.seeder.ts",
+    "product:seeder": "ts-node src/seeder/product.seeder.ts",
+    "order:seeder": "ts-node src/seeder/order.seeder.ts"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +17,10 @@
     "@types/cookie-parser": "^1.4.2",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
+    "@types/faker": "^5.5.3",
+    "@types/json2csv": "^5.0.3",
     "@types/jsonwebtoken": "^8.5.8",
+    "@types/multer": "^1.4.7",
     "@types/node": "^17.0.17",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.15",
@@ -30,6 +35,9 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "express-validation": "^3.0.8",
+    "faker": "^5.5.3",
+    "json2csv": "^5.0.6",
+    "multer": "^1.4.4",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.41"
